@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+
+<body>
+    <!-- "<div> tag is used to create divisions for later on implementing CSS and JS" -->
+    <!-- "<div>" is a block level element -->
+    <div>
+        <!-- Use "post" not "get" -->
+        <form method="post">
+            <!-- "<span>" does the same job like that of "<div>" but is an inline element -->
+            <span> First Name</span>: &nbsp;&nbsp;<input type="text" name="first_name" id="">
+            <br>
+            <br>
+            Last Name: &nbsp;&nbsp;<input type="text" name="last_name" id="">
+            <br>
+            <br>
+            Email: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="email" name="email" id=""
+                required>
+            <br>
+            <br>
+            Password: &nbsp;&nbsp;&nbsp;&nbsp;<input type="password" name="password" id="" min="8">
+            <br>
+            <br>
+            Birthday: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="date" name="birthday" id="">
+            <br>
+            <br>
+            Gender:
+            <br>
+            <input type="radio" name="gender" value="male">Male
+            <input type="radio" name="gender" value="female">Female
+            <input type="radio" name="gender" value="Other">Other
+            <br>
+            <br>
+            Pets:
+            <br>
+            <input type="checkbox" name="pets" id=""> Cats
+            <br>
+            <input type="checkbox" name="pets" id=""> Dogs
+            <br>
+            <br>
+            Cars:
+            <br>
+            <select>
+                <option value="volvo" name="volvo">Volvo</option>
+                <option value="audi" name="audi">Audi</option>
+                <option value="Mercedes" name="mercedes">Mercedes</option>
+            </select>
+
+            <br>
+            <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="submit" value="Register">
+            <input type="reset" value="Reset">
+        </form>
+    </div>
+</body>
+
+</html>
