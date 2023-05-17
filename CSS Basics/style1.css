@@ -1,0 +1,20 @@
+header{
+    background-color: yellow;
+}
+
+h2{
+    color: red;
+    
+    text-align: center;
+}
+
+a{
+    background-color: black;
+    color: red;
+}
+
+fieldset{
+ border-color: blue;
+ border-radius: 20px; 
+ color: green; 
+}
