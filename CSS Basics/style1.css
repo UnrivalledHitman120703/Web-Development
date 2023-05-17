@@ -1,20 +1,28 @@
-header{
+header {
     background-color: yellow;
 }
 
-h2{
-    color: red;
-    
+h2 {
+    color: #AA4139;
     text-align: center;
+    border: 3px solid rgba(255, 176, 170, 0.5);
 }
 
-a{
+a {
     background-color: black;
     color: red;
+    cursor: pointer;
 }
 
-fieldset{
- border-color: blue;
- border-radius: 20px; 
- color: green; 
+p {
+    padding: 15px;
+    background-image: url(background-image.jpg);
+    border: 3px solid black;
+    border-radius: 5px;
+    background-size: cover;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
 }
