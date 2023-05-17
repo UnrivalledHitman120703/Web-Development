@@ -7,3 +7,16 @@ fieldset{
     border-radius: 20px;
     color: green;
 }
+
+p{
+    padding: 15px;
+    border: 3px solid black;
+    border-radius: 5px;
+    /* text-decoration: underline; */
+    text-transform: uppercase;
+    line-height: 20px;
+    font-style: italic;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* google-fonts can be used as well by inserting the respective link */
+}
