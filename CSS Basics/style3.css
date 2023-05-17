@@ -1,29 +1,37 @@
-*{
+* {
     text-align: right;
 }
-body{
+
+body {
     background-image: url(background-image2.jpg);
     background-size: cover;
 }
 
 /* class-selector */
-.webtext{
+.webtext {
     border: 5px double greenyellow;
 }
 
-.red{
+.red {
     color: red;
 }
 
-/* id-selector */
-#div1{
-    background: rgba(0,0,255,0.2);
-}
-#div2{
-    background: rgba(255,0,0,0.2);
-}
 
-li{
+li {
     list-style-type: none;
     display: inline-block;
+}
+
+img {
+    float: right;
+}
+
+p {
+    line-height: 2px;
+}
+
+footer {
+    font-size: 150%;
+    clear: both;
+    text-align: center;
 }
