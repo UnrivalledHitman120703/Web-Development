@@ -1,6 +1,10 @@
 h1 {
     text-align: center;
+    padding: 10px;
     font-family: 'Roboto', sans-serif;
+    border: 5px solid black;
+    border-radius: 20px;
+    width: 30%;
 }
 
 .robots {
@@ -81,12 +85,15 @@ h1 {
     margin-left: 45px;
 }
 
-.left_leg:hover {
-    -webkit-transform: rotate(20deg);
-    -moz-transform: rotate(20deg);
-    -o-transform: rotate(20deg);
-    -ms-transform: rotate(20deg);
+.left_leg:hover,
+.left_arm:hover {
+
     transform: rotate(20deg);
+}
+
+.right_leg:hover,
+.right_arm:hover {
+    transform: rotate(-20deg);
 }
 
 .right_leg {
