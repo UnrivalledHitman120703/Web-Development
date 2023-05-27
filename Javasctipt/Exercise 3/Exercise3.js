@@ -1,5 +1,5 @@
 // Program to perform simple calculations
-// Name = Indrajeet Mondal; Date = 27th April 2023
+// Name = Indrajeet Mondal; Date = 27th May 2023
 // SourceCode
 
 //To run in browser we don't need prompt-sync, prompt-sync is used to take input from the console/terminal; prompt is sufficient to take input from the browser as a pop-up
