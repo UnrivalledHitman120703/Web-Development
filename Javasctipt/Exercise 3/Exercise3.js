@@ -12,6 +12,7 @@ let sum = a + b;
 let product = a * b;
 let diff = a - b;
 
+// For running in the browser replace console.log() with alert
 console.log("The sum of " + a + " and " + b + " is " + sum + ".");
 console.log("The product of " + a + " and " + b + " is " + product + ".");
 console.log("The diff of " + a + " and " + b + " is " + diff + ".");
