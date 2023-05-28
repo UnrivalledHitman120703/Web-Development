@@ -32,4 +32,4 @@ let newsfeed = [
 	}
 ];
 
-console.log(user);
+console.log(newsfeed);
