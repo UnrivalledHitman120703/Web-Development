@@ -32,4 +32,6 @@ let newsfeed = [
 	}
 ];
 
+console.log(user);
+console.log(database);
 console.log(newsfeed);
