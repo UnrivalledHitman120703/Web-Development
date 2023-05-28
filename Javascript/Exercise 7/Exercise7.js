@@ -1,4 +1,4 @@
-// Trying to make a facebook clone 
+// Trying to build Facebook 
 // Name = Indrajeet Mondal; Date = 28th May 2023
 // SourceCode
 
