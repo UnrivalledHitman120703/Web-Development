@@ -12,7 +12,7 @@ let user = {
 let database = [
 	{
 		username: "andrei",
-		password: "supersecret"
+		password: "nothing is a secret"
 	}
 ];
 
@@ -31,3 +31,5 @@ let newsfeed = [
 		timeline: "Javascript is preeetyy cool!"
 	}
 ];
+
+console.log(user);
