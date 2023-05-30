@@ -2,17 +2,15 @@
 // Name = Indrajeet Mondal; Date = 28th May 2023
 // SourceCode
 
-const prompt = require("prompt-sync")();
-
 // Part 1:
 function checkDriverAge(age) {
     let age = prompt("Enter your age:- ");
     if (Number(age) < 18) {
-        console.log("Sorry, you are too yound to drive this car. Powering off");
+        alert("Sorry, you are too yound to drive this car. Powering off");
     } else if (Number(age) == 18) {
-        console.log("Powering On. Enjoy the ride!");
+        alert("Powering On. Enjoy the ride!");
     } else {
-        console.log("Congratulations on your first year of driving. Enjoy the ride!");
+        alert("Congratulations on your first year of driving. Enjoy the ride!");
     }
 }
 
@@ -20,11 +18,11 @@ function checkDriverAge(age) {
 let checkDriverAge2 = function () {
     let age = prompt("Enter your age:- ");
     if (Number(age) < 18) {
-        console.log("Sorry, you are too yound to drive this car. Powering off");
+        alert("Sorry, you are too yound to drive this car. Powering off");
     } else if (Number(age) == 18) {
-        console.log("Powering On. Enjoy the ride!");
+        alert("Powering On. Enjoy the ride!");
     } else {
-        console.log("Congratulations on your first year of driving. Enjoy the ride!");
+        alert("Congratulations on your first year of driving. Enjoy the ride!");
     }
 }
 

@@ -1,4 +1,4 @@
-// Trying to build Facebook 
+alert// Trying to build Facebook 
 // Name = Indrajeet Mondal; Date = 28th May 2023
 // SourceCode
 
@@ -32,6 +32,6 @@ let newsfeed = [
 	}
 ];
 
-console.log(user);
-console.log(database);
-console.log(newsfeed);
+alert(user);
+alert(database);
+alert(newsfeed);
