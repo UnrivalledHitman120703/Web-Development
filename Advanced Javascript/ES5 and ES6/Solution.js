@@ -1,4 +1,4 @@
-// change everything below to the newer Javascript!
+ // change everything below to the newer Javascript!
 
 // let + const
 let a = 'test';
@@ -19,11 +19,11 @@ const { firstName, lastName, age, eyeColor } = person;
 
 
 // Object properties
-const a = 'test';
-const b = true;
-const c = 789;
+const x = 'test';
+const y = true;
+const z = 789;
 
-const okObj = {a, b, c};
+const okObj = {x, y, z};
 
 
 // Template strings
