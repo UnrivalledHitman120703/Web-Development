@@ -1,4 +1,4 @@
- // change everything below to the newer Javascript!
+// change everything below to the newer Javascript!
 
 // let + const
 let a = 'test';
