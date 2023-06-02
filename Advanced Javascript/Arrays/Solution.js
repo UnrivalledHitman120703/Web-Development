@@ -28,13 +28,13 @@ const array = [
 ];
 
 //Create an array using forEach that has all the usernames with a "!" to each of the usernames
-let newArray = []
+let newArray1 = []
 array.forEach(user => {
 	let { username } = user;
 	username = username + "!";
-	newArray.push(username);
+	newArray1.push(username);
 })
-console.log(newArray);
+console.log(newArray1);
 
 //Create an array using map that has all the usernames with a "?" at the end of usernames
 const mapArray = array.map(user => {
