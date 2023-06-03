@@ -33,7 +33,7 @@ array.forEach(user => {
 	let { username } = user;
 	username = username + "!";
 	newArray1.push(username);
-})
+})  
 console.log(newArray1);
 
 //Create an array using map that has all the usernames with a "?" at the end of usernames
@@ -53,7 +53,7 @@ console.log(filterArray);
 const total = array.reduce((acc, user) => {
 	return acc + user.score
 }, 0);
-console.log(total);
+console.log(total);  
 
 
 // (1), what is the value of i? INDEX of the array.
