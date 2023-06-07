@@ -25,7 +25,7 @@ rabbit = rabbit.padStart(8);
 turtle = turtle.trim().padEnd(9, '=');
 
 '     ||<- Start line'
-'🐢======='\78
+'🐢======='
 '       🐇'
 
 
